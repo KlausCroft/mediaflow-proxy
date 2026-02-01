@@ -1,0 +1,5 @@
+build:
+  builder: dockerfile
+run:
+  command: python -m mediaflow_proxy
+  port: 8080
